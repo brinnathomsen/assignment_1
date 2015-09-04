@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
 	// clear the background
-	background(0, 0, 0);
+	background(0, 255, 10);
 
 	// set a fill color
 	fill(255, 255, 255);
