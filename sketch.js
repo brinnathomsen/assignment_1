@@ -12,7 +12,8 @@ function draw() {
 
 	// set a stroke color
 	stroke(255, 0, 0);
-
+noStroke();
 	// draw a circle
 	ellipse(320, 180, 100, 100);
+	ellipse(100, 300, 100, 100);
 }
