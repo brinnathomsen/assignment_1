@@ -6,4 +6,4 @@
 
 ## The Festive Woods of Sir Tree
 
-![Output](BrinnaThomsen.png)
+![Output](brinnathomsen.jpg)
