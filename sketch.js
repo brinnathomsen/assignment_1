@@ -7,8 +7,53 @@ function draw() {
 	// clear the background
 	background(color(155, 82, 199));
 
-	// set a sky fill color
+	// Sky
+	noStroke();
 	fill(155, 82, 199);
+	var r = color(191, 179, 229);
+	fill(r);
+	ellipse( 200, 10, 10, 10);
+	ellipse( 250, 30, 10, 10);
+	ellipse( 300, 10, 10, 10);
+	ellipse( 360, 30, 10, 10);
+	ellipse( 400, 20, 10, 10);
+	ellipse( 420, 60, 10, 10);
+	ellipse( 475, 15, 10, 10);
+
+	ellipse( 220, 50, 5, 5);
+	ellipse( 260, 60, 5, 5);
+	ellipse( 280, 30, 5, 5);
+	ellipse( 330, 10, 5, 5)
+	ellipse( 360, 60, 5, 5)
+  ellipse( 360, 60, 5, 5)
+	ellipse( 450, 80, 5, 5)
+	ellipse( 450, 80, 5, 5)
+	ellipse( 450, 30, 5, 5)
+	ellipse( 480, 50, 5, 5)
+
+	ellipse( 550, 10, 10, 10);
+	ellipse( 525, 60, 10, 10);
+	ellipse( 575, 10, 10, 10);
+	ellipse( 605, 50, 5, 5);
+	ellipse( 575, 60, 5, 5);
+	ellipse( 530, 30, 5, 5);
+
+	ellipse( 230, 40, 3, 3);
+	ellipse( 240, 70, 3, 3);
+	ellipse( 270, 10, 3, 3);
+	ellipse( 300, 40, 3, 3)
+	ellipse( 350, 65, 3, 3)
+	ellipse( 380, 50, 3, 3)
+	ellipse( 430, 90, 3, 3)
+	ellipse( 430, 20, 3, 3)
+	ellipse( 480, 80, 3, 3)
+	ellipse( 490, 40, 3, 3)
+
+	ellipse( 520, 10, 3, 3);
+	ellipse( 570, 50, 3, 3);
+	ellipse( 575, 10, 3, 3);
+	ellipse( 608, 30, 8, 8);
+
 
 	// set a stroke color
 	stroke(255, 0, 0);
@@ -55,22 +100,22 @@ noStroke();
 	rect(180, 110, 2, 50);
 
 
+	// River
+
+	fill(155, 82, 199);
+	quad(220, 160, 240, 160, 200, 170, 160, 170);
+	quad(200, 170, 160, 170, 210, 185, 250, 185);
+	quad(210, 185, 250, 185, 100, 190, 80, 190);
+	quad(80, 190, 100, 190, 240, 220, 150, 220);
+	quad(240, 220, 150, 220, 0, 360, 250, 360);
 
 
-		// River
-		fill(155, 82, 199);
-		quad(220, 160, 240, 160, 200, 170, 160, 170);
-		quad(200, 170, 160, 170, 210, 185, 250, 185);
-		quad(210, 185, 250, 185, 100, 190, 80, 190);
-		quad(80, 190, 100, 190, 240, 220, 150, 220);
-		quad(240, 220, 150, 220, 0, 360, 250, 360);
 
 		//Mid Ground Trees
 		var t = color(66, 78, 140);
 		fill(t);
 		ellipse( 150, 60, 20, 55);
 		ellipse( 170, 50, 60, 55);
-		ellipse( 200, 40, 70, 40);
 		ellipse( 120, 40, 70, 90);
 		ellipse(70, 80, 70, 100);
 		ellipse(120, 90, 70, 100);
@@ -93,7 +138,7 @@ noStroke();
 
 
 
-		//Foreground trees/ shrubs
+		//Foreground trees
 		var x = color(49, 44, 104);
 		fill(x);
 
